@@ -1,6 +1,6 @@
 img {width: 2cm;}
 
-.navbar {color: rgb(160, 164, 164);}
+.navbar {color: rgb(26, 28, 28);}
 
 .banner {
     background-image: url(./images/banner1.jpeg);
@@ -11,4 +11,5 @@ img {width: 2cm;}
     
 }
 
+.picture img {width: 5cm; float: right;}
 h3 {color: rgb(148, 154, 156); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
