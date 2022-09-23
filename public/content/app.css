@@ -11,5 +11,8 @@ img {width: 2cm;}
     
 }
 
+.paragraphs p{position: relative; left: 0.5cm; text-indent: 1cm;}
+.images img {width: 8cm; float: left;}
+.images h5 {text-indent: 1cm; font-style: italic; font-family:Georgia, 'Times New Roman', Times, serif; color: rgb(148, 154, 156);}
 .picture img {width: 5cm; float: right;}
 h3 {color: rgb(148, 154, 156); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
