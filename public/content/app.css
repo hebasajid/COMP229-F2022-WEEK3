@@ -10,10 +10,23 @@ img {width: 2cm;}
     width: 930px;
     
 }
-.left img{float: left;}
+
 .paragraphs p{position: relative; left: 0.5cm; text-indent: 1cm;}
 .images1 img {width: 8cm;}
 .images img {width: 8cm; float: left;}
 .images h5 {text-indent: 1cm; font-style: italic; font-family:Georgia, 'Times New Roman', Times, serif; color: rgb(148, 154, 156);}
 .picture img {width: 5cm; float: right;}
 h3 {color: rgb(148, 154, 156); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#wrapper {width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+        background-color: #f5f3f1;
+        min-width: 980px;
+        max-width: 150px;
+        box-shadow: 3px 3px 3px 3px #333333;
+    border-radius: 3px;
+    text-indent: 2em;
+    line-height: 2em;
+   
+}

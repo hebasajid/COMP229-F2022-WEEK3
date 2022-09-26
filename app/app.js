@@ -39,5 +39,26 @@ app.use(session({
 // Use Routes
 app.use('/', indexRouter);
 
+//redirection to other pages by pressing submit button or hyperlinks in home page:
+
+app.get('/home', (req, res) => {
+    res.render('home');
+   });
+
+app.get('/about', (req, res) => {
+    res.render('about');
+   });
+
+   app.get('/projects', (req, res) => {
+    res.render('projects');
+   });
+
+   app.get('/services', (req, res) => {
+    res.render('services');
+   });
+
+   app.get('/contact', (req, res) => {
+    res.render('contact');
+   });
 
 export default app;

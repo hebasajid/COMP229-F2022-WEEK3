@@ -1,4 +1,37 @@
 <div class="container">
     <h1><%= title %></h1>
-    <p>hi</p>
+    <hr>
+    <!--Contact Information Panel-->
+    <h3>Contact Me</h3>
+    
+    <body>
+    
+    <p style="text-align: center;"><strong>Name:</strong> Heba Sajid</p> 
+    <p style="text-align: center;"><strong>Email:</strong> hsajid35467@gmail.com</p> 
+    <p style="text-align: center;"><strong>Phone & Text:</strong> (289)-698-0372</p> 
+    
+    <h2 style=" color: aliceblue; text-align: center; font-size: 15px; background-color: rgb(30, 30, 34);">Send a Message</h2>
+    
+    <div class="wrapper">
+        <form action= "/home" method="get">
+
+            <label for="fname"><strong>First Name: </strong></label><input type="text" name= "fname" id = "fname" required> <br> <br>
+            <label for="lname"><strong>Last Name: </strong></label><input type="text" name= "lname" id = "lname" required> <br> <br>
+            <label for="number"><strong>Contact Number: </strong></label><input type="text" name= "number" id = "number" maxlength="10" placeholder="e.g. 9055437653"> <br> <br>
+            <label for="email"><strong>Email: </strong></label><input type="text" name= "email" id = "email" maxlength="50" required> <br> 
+            <br>
+                <p> Please type your message:</p>
+                <label for="comments"></label>
+                <textarea name= "comments" id = "comments" cols="33" rows="5" placeholder="Type message..."></textarea><br>
+                <br>
+
+                <button>Send Message</button>
+                
+                <input type = "reset" name = "btnReset" value = "Reset">
+            </body>  
+
+    </div>
+    <br>
+    <br>
+    <br>
 </div>
