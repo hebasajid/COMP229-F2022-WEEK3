@@ -1,18 +1,14 @@
+/*
+Name: Heba Sajid
+ID: 301244428
+Date: September 27th 2022
+*/
 img {width: 2cm;}
 
 .navbar {color: rgb(26, 28, 28);}
 
-.banner {
-    background-image: url(./images/banner1.jpeg);
-    background-position: center;
-    background-repeat: repeat-x;
-    height: 200px;
-    width: 930px;
-    
-}
-
 .paragraphs p{position: relative; left: 0.5cm; text-indent: 1cm;}
-.images1 img {width: 8cm;}
+.servicesimages img {width: 8cm;}
 .images img {width: 8cm; float: left;}
 .images h5 {text-indent: 1cm; font-style: italic; font-family:Georgia, 'Times New Roman', Times, serif; color: rgb(148, 154, 156);}
 .picture img {width: 5cm; float: right;}
