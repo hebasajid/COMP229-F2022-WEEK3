@@ -15,14 +15,25 @@ import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+//Import mongoose modules
+import mongoose from 'mongoose';
+
 // Configuration Module
-import { Secret } from '../config/config.js';
+import {MongoURI, Secret } from '../config/config.js';
 
 // Import Routes
 import indexRouter from './routes/index.route.server.js'
 
 // Instantiate Express Application
 const app = express();
+
+//complete the DB configuration
+mongoose.connect(MongoURI);
+const db = mongoose.connection;
+
+//listen for connection success or error
+db.on('open',() => console.log("Connected to MongoDB"));
+db.on('error', () => console.log("mongo Connection Error"));
 
 // Set Up Middlewares
 
