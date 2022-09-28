@@ -11,7 +11,7 @@ export function DisplayMoviesList(req, res, next){
     })
 }
 export function DisplayMoviesAddPage(req, res, next){
-    res.render('index', { title: 'Add Movie', page: 'movies/edit', movie: {} });
+    res.render('index', { title: 'Add Movie', page: 'movies/edit', movie: {} }); //used two methids, one to render another to process 
 }
 
 export function ProcessMoviesAddPage(req, res, next){
