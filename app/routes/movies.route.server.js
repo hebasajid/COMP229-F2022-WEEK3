@@ -12,7 +12,7 @@ const router = Router();
 router.get('/movie-list', DisplayMoviesList);
 router.get('/movie-add', DisplayMoviesAddPage);
 router.post('/movie-add', ProcessMoviesAddPage);
-router.post('/movie-edit/:id', ProcessMoviesEditPage);
+router.post('/movie-edit/:id', ProcessMoviesEditPage); //to define parameters id so here we use :id
 router.get('/movie-edit/:id', DisplayMoviesEditPage);
 router.get('/movie-delete/:id', ProcessMoviesDelete);
 

@@ -1,10 +1,14 @@
 <div class="container">
     <h1>Movie List</h1>
-
+    <a href="/movie-add" class="btn btn-primary" role="button">
+        <i class="fas fa-plus-circle"></i> Add a Movie</a>
+        <br>
+        
+        
 
     <div class="row">
         <div class="col">
-    
+    <br>
             <table class="table table-striped table-bordered table-hover">
                 <thead class="table-dark">
                     <tr>
@@ -29,12 +33,13 @@
                             <td><%= movies[count].genre %></td>
                             <td><%= movies[count].runtime %></td>
                             
-                            <td class="text-center col-1">
+                            <!--edit button-->
+                            <td class="text-center col-1">   
                                 <a href="/movie-edit/<%= movies[count]._id %>"
                                     class="btn btn-primary btn-sm">
                                     <i class="fas fa-pencil-alt"></i> Edit</a>
                             </td>
-                            
+                            <!--delete button-->
                             <td class="text-center col-1">
                                 <a href="/movie-delete/<%= movies[count]._id %>"
                                     class="btn btn-danger btn-sm">

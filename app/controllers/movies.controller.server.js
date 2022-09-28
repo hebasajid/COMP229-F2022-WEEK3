@@ -14,7 +14,7 @@ export function DisplayMoviesAddPage(req, res, next){
     res.render('index', { title: 'Add Movie', page: 'movies/edit', movie: {} }); //used two methids, one to render another to process 
 }
 
-export function ProcessMoviesAddPage(req, res, next){
+export function ProcessMoviesAddPage(req, res, next){  //processing that previous page
     
     let newMovie = movieModel({
         name: req.body.name,
